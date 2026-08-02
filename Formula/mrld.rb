@@ -1,19 +1,19 @@
 class Mrld < Formula
-  version "0.1.11"
+  version "0.1.12"
   on_macos do
     on_arm do
-      url "https://github.com/phoggy/mrld/releases/download/v0.1.11/mrld-aarch64-apple-darwin.tar.xz"
-      sha256 "d336516c6553a102ab4c7edd0fa0cdd4bb955b5eb06a69729e08c61f88c6ad81"
+      url "https://github.com/phoggy/mrld/releases/download/v0.1.12/mrld-aarch64-apple-darwin.tar.xz"
+      sha256 "b4c0272bc63189370f25ef7cbdf34024098e78fa53e4f9db86d986446db674df"
     end
     on_intel do
-      url "https://github.com/phoggy/mrld/releases/download/v0.1.11/mrld-x86_64-apple-darwin.tar.xz"
-      sha256 "959c943dec72a133863ec83faa0e423854dbc0b5dcdce6d1deaa533de68f4d93"
+      url "https://github.com/phoggy/mrld/releases/download/v0.1.12/mrld-x86_64-apple-darwin.tar.xz"
+      sha256 "515e0007eb33db378961e34b7ccb0f90d5864cc474465c9e381a686517bbbba4"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/phoggy/mrld/releases/download/v0.1.11/mrld-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "6cfd766560336dcf86ae6a42827cc4e57fa9476a383f7653bec1a48f5164a360"
+      url "https://github.com/phoggy/mrld/releases/download/v0.1.12/mrld-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "81d8b7f4ba8ccb7d6b67bf7e59ad7a95f22217831546997b4cf2321b9990a5e9"
     end
   end
 
